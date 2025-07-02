@@ -211,7 +211,7 @@ const Portfolio = () => {
 
         {/* Skills Section */}
         <div id="skills" className="skills-section">
-          <h2 className="section-title">My Skills</h2>
+          <h2 className="section-title">Skills</h2>
           <div className="skills-grid">
             {skills.map((skill, index) => (
               <div className={`skill-card ${skill.className}`} key={index}>
@@ -265,7 +265,7 @@ const Portfolio = () => {
 
         {/* My Projects */}
         <div id="projects" className="projects-section">
-          <h2 className="section-title"> My Projects</h2>
+          <h2 className="section-title"> Projects</h2>
           <div className="layout-section">
             <div class="projects-card ">
               <div class="projects-item">
