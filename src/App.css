@@ -772,9 +772,13 @@ body {
   }
 
   .portfolio-container {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
+    /* width: 100%;
+    height: auto; */
+    flex-direction: row;
+    min-height: 90vh;
+    width: 95%;
+    min-width: auto;
+
   }
 
   .profile-card {
@@ -798,7 +802,7 @@ body {
     font-size: 20px;
     margin-bottom: 16px;
   }
-  
+
   .projects-card {
     grid-template-columns: 1fr;
   }
