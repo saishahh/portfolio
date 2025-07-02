@@ -753,6 +753,7 @@ body {
   }
 
   .projects-card {
+    grid-template-columns: 1fr;
     flex-direction: column;
     gap: 16px;
   }
@@ -764,8 +765,8 @@ body {
 
 
 
-/* ==================== MOBILE (<=480px) ==================== */
-/* @media (max-width: 480px) {
+/*==================== MOBILE (<=480px) ==================== */
+@media (max-width: 480px) {
   .main-content {
     padding: 16px;
   }
@@ -797,4 +798,8 @@ body {
     font-size: 20px;
     margin-bottom: 16px;
   }
-} */
+  
+  .projects-card {
+    grid-template-columns: 1fr;
+  }
+}
